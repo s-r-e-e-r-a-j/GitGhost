@@ -1,4 +1,5 @@
 import requests
+import os
 
 # ANSI color codes
 RED = "\033[31m"
@@ -26,7 +27,10 @@ print(f"""{GREEN}
 USERNAME = input(f"{YELLOW}Enter your GitHub username: {RESET}").strip()
 
 # Prompt for GitHub token (optional)
-TOKEN = input(f"{YELLOW}Enter your GitHub token (Press Enter to use default): {RESET}").strip() or "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"
+TOKEN = input(f"{YELLOW}Enter your GitHub token : {RESET}").strip()
+if not TOKEN:
+    print(f"{RED}Error: GitHub token is required!{RESET}")
+    exit(1)
 
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
