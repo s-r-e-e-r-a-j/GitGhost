@@ -26,7 +26,7 @@ print(f"""{GREEN}
 # Prompt for GitHub username
 USERNAME = input(f"{YELLOW}Enter your GitHub username: {RESET}").strip()
 
-# Prompt for GitHub token (optional)
+# Prompt for GitHub token 
 TOKEN = input(f"{YELLOW}Enter your GitHub token : {RESET}").strip()
 if not TOKEN:
     print(f"{RED}Error: GitHub token is required!{RESET}")
