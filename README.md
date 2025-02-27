@@ -18,6 +18,15 @@ git clone https://github.com/yourusername/GitGhost.git
 ```bash
 cd GitGhost
 ```
+
+## 📦 Dependencies
+Make sure you have Python installed along with the following dependencies:
+
+- **requests**
+  install it by 
+```bash
+pip install requests
+```
 ## 🚀 Usage
 **Run the script:**
 
