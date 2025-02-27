@@ -31,7 +31,6 @@ TOKEN = input(f"{YELLOW}Enter your GitHub token (Press Enter to use default): {R
 headers = {"Authorization": f"token {TOKEN}"} if TOKEN else {}
 
 def get_users(endpoint):
-    """ Fetch paginated lists of users (following or followers) """
     users = set()
     url = f"https://api.github.com/users/{USERNAME}/{endpoint}"
     
@@ -68,4 +67,4 @@ if not_following_back:
     for user in sorted(not_following_back):
         print(f"{RED}[-] {user}{RESET}")
 else:
-    print(f"{GREEN}Everyone you follow follows you back! ðŸŽ‰{RESET}")
+    print(f"{GREEN}Everyone you follow follows you back!{RESET}")
