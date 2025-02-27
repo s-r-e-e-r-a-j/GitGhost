@@ -23,6 +23,7 @@ cd GitGhost
 Make sure you have Python installed along with the following dependencies:
 
 - **requests**
+  
   install it by 
 ```bash
 pip install requests
