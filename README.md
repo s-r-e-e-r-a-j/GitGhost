@@ -36,7 +36,7 @@ python gitghost.py
 ```
 ## What It Does:
 - 1️⃣ Prompts for your GitHub username
-- 2️⃣ Asks for your GitHub token (or uses a default one)
+- 2️⃣ Asks for your GitHub token 
 - 3️⃣ Fetches your followers and following lists
 - 4️⃣ Shows users you follow who don’t follow you back
 - 5️⃣ Lets you save the results to a file
