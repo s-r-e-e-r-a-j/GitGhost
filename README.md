@@ -39,27 +39,27 @@ python gitghost.py
 
 GitGhost requires a **GitHub personal access token (PAT)** to authenticate API requests. Follow these steps to generate one:  
 
-## 📌 Step 1: Open GitHub Token Settings  
+#### 📌 Step 1: Open GitHub Token Settings  
 Go to the **GitHub Personal Access Tokens** page:  
 
 🔗 [GitHub Token Settings](https://github.com/settings/tokens)  
 
-## 🛠️ Step 2: Generate a New Token  
+#### 🛠️ Step 2: Generate a New Token  
 1. Click **"Generate new token (classic)"**.  
 2. Give it a name (e.g., *GitGhost Token*).  
 
-## 🔒 Step 3: Set Token Permissions  
+#### 🔒 Step 3: Set Token Permissions  
 - Under **"Select scopes"**, check the box for:  
   ✅ **`read:user`** – Required to fetch your followers and following lists.  
 
-## ✅ Step 4: Generate & Copy the Token  
+#### ✅ Step 4: Generate & Copy the Token  
 1. Scroll down and click **"Generate token"**.  
 2. Copy the token and store it securely (you won’t see it again).  
 
-## 🚀 Step 5: Use the Token in GitGhost  
+#### 🚀 Step 5: Use the Token in GitGhost  
 - When prompted by GitGhost, paste your token to authenticate.  
 
-## ⚠️ Important Notes  
+#### ⚠️ Important Notes  
 - Never share your **GitHub token** with anyone.  
 - If your token is compromised, **revoke it** immediately and generate a new one.  
 - GitHub tokens **expire** based on the duration you set, so renew it if needed.  
