@@ -67,7 +67,7 @@ if save_file == "y":
 
 # Print result
 if not_following_back:
-    print(f"\n{RED}Users you follow ({len(following)}) but who donâ€™t follow you back ({len(not_following_back)}):{RESET}")
+    print(f"\n{RED}Users you follow ({len(following)}) but who donot follow you back ({len(not_following_back)}):{RESET}")
     for user in sorted(not_following_back):
         print(f"{RED}[-] {user}{RESET}")
 else:
