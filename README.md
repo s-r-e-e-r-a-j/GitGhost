@@ -13,7 +13,7 @@ GitGhost is a powerful GitHub unfollowers tracking tool that helps you identify 
 Clone the repository and navigate to the project folder:
 
 ```bash
-git clone https://github.com/yourusername/GitGhost.git
+git clone https://github.com/s-r-e-e-r-a-j/GitGhost.git
 ```
 ```bash
 cd GitGhost
