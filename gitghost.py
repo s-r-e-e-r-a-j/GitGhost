@@ -8,21 +8,18 @@ YELLOW = "\033[33m"
 BLUE = "\033[34m"
 RESET = "\033[0m"
 
-print(f"""{GREEN}
-
+print(f"{GREEN}");
+print(r"""
    _____ _ _    _____ _               _   
   / ____(_) |  / ____| |             | |  
  | |  __ _| |_| |  __| |__   ___  ___| |_ 
  | | |_ | | __| | |_ | '_ \ / _ \/ __| __|
  | |__| | | |_| |__| | | | | (_) \__ \ |_ 
-  \_____|_|\__|\_____|_| |_|\___/|___/\__|
-                                           
-
-{RESET}{YELLOW}* GitHub Unfollowers Finder Tool{RESET}
-{YELLOW}* https://github.com/s-r-e-e-r-a-j{RESET}\n"""
-
+  \_____|_|\__|\_____|_| |_|\___/|___/\__|                                  
 )
-
+print(f"{RESET}")
+print(f"{YELLOW}* GitHub Unfollowers Finder Tool{RESET}")
+print(f"{YELLOW}* https://github.com/s-r-e-e-r-a-j{RESET}\n")
 # Prompt for GitHub username
 USERNAME = input(f"{YELLOW}Enter your GitHub username: {RESET}").strip()
 
