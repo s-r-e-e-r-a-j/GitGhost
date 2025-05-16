@@ -16,7 +16,7 @@ print(r"""
  | | |_ | | __| | |_ | '_ \ / _ \/ __| __|
  | |__| | | |_| |__| | | | | (_) \__ \ |_ 
   \_____|_|\__|\_____|_| |_|\___/|___/\__|                                  
-)
+  """)
 print(f"{RESET}")
 print(f"{YELLOW}* GitHub Unfollowers Finder Tool{RESET}")
 print(f"{YELLOW}* https://github.com/s-r-e-e-r-a-j{RESET}\n")
