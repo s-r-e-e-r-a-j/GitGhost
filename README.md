@@ -1,15 +1,15 @@
-## GitGhost 👻
+## GitGhost 
 Find out who doesn’t follow you back on GitHub!
 GitGhost is a powerful GitHub unfollowers tracking tool that helps you identify users you follow but who don’t follow you back.
 
-## ✨ Features
+## Features
 - ✅ Find non-followers – See who isn’t following you back
 - ✅ Uses GitHub API – Fast & reliable data fetching
 - ✅ ANSI Colors – Clean and readable output
 - ✅ Save Results – Option to save unfollowers list to a file
 - ✅ Easy to Use – Just run, enter your username, and get results!
 
-## 🛠️ Installation
+## Installation
 Clone the repository and navigate to the project folder:
 
 ```bash
@@ -19,7 +19,7 @@ git clone https://github.com/s-r-e-e-r-a-j/GitGhost.git
 cd GitGhost
 ```
 
-## 📦 Dependencies
+## Dependencies
 Make sure you have Python installed along with the following dependencies:
 
 - **requests**
@@ -28,27 +28,27 @@ Make sure you have Python installed along with the following dependencies:
 ```bash
 pip install requests
 ```
-## 🚀 Usage
+## Usage
 **Run the script:**
 
 ```bash
 python gitghost.py
 ```
 
- ## 🔑 Getting a GitHub Personal Access Token  
+ ## Getting a GitHub Personal Access Token  
 
 GitGhost requires a **GitHub personal access token (PAT)** to authenticate API requests. Follow these steps to generate one:  
 
-### 📌 Step 1: Open GitHub Token Settings  
+### Step 1: Open GitHub Token Settings  
 Go to the **GitHub Personal Access Tokens** page:  
 
 🔗 [GitHub Token Settings](https://github.com/settings/tokens)  
 
-### 🛠️ Step 2: Generate a New Token  
+### Step 2: Generate a New Token  
 1. Click **"Generate new token (classic)"**.  
 2. In the **"Note"** field, enter a description (e.g., *GitGhost Token*).  
 
-### 🔒 Step 3: Set Token Permissions  
+### Step 3: Set Token Permissions  
 - Under **"Select scopes"**, check the box for:  
   ✅ **`read:user`** – Required to fetch your followers and following lists.  
 
@@ -56,10 +56,10 @@ Go to the **GitHub Personal Access Tokens** page:
 1. Scroll down and click **"Generate token"**.  
 2. Copy the token and store it securely (you won’t see it again).  
 
-### 🚀 Step 5: Use the Token in GitGhost  
+### Step 5: Use the Token in GitGhost  
 - When prompted by GitGhost, paste your token to authenticate.  
 
-### ⚠️ Important Notes  
+### Important Notes  
 - Never share your **GitHub token** with anyone.  
 - If your token is compromised, **revoke it** immediately and generate a new one.  
 - GitHub tokens **expire** based on the duration you set, so renew it if needed.  
@@ -75,11 +75,11 @@ This guide ensures you have a **valid GitHub token** to use with GitGhost.
 - 4️⃣ Shows users you follow who don’t follow you back
 - 5️⃣ Lets you save the results to a file
 
-## 📸 Screenshot
+## Screenshot
 
 ![VirtualBox_klinux13_27_02_2025_22_58_48](https://github.com/user-attachments/assets/00751552-0d1f-48a7-9c98-12ef6973f6e0)
 
 
-## 📜 License
+## License
 This project is licensed under the MIT License.
 
