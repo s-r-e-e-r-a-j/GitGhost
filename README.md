@@ -3,11 +3,10 @@ Find out who doesn’t follow you back on GitHub!
 GitGhost is a powerful GitHub unfollowers tracking tool that helps you identify users you follow but who don’t follow you back.
 
 ## Features
-- ✅ Find non-followers – See who isn’t following you back
-- ✅ Uses GitHub API – Fast & reliable data fetching
-- ✅ ANSI Colors – Clean and readable output
-- ✅ Save Results – Option to save unfollowers list to a file
-- ✅ Easy to Use – Just run, enter your username, and get results!
+- Find non-followers – See who isn’t following you back
+- Uses GitHub API – Fast & reliable data fetching
+- Save Results – Option to save unfollowers list to a file
+- Easy to Use – Just run, enter your username, and get results!
 
 ## Installation
 Clone the repository and navigate to the project folder:
@@ -52,7 +51,7 @@ Go to the **GitHub Personal Access Tokens** page:
 - Under **"Select scopes"**, check the box for:  
   ✅ **`read:user`** – Required to fetch your followers and following lists.  
 
-### ✅ Step 4: Generate & Copy the Token  
+### Step 4: Generate & Copy the Token  
 1. Scroll down and click **"Generate token"**.  
 2. Copy the token and store it securely (you won’t see it again).  
 
