@@ -25,13 +25,13 @@ Make sure you have Python installed along with the following dependencies:
   
   install it by 
 ```bash
-pip install requests
+pip3 install requests
 ```
 ## Usage
 **Run the script:**
 
 ```bash
-python gitghost.py
+python3 gitghost.py
 ```
 
  ## Getting a GitHub Personal Access Token  
