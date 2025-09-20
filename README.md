@@ -1,4 +1,4 @@
-## GitGhost 
+## GitGhost
 Find out who doesn’t follow you back on GitHub!
 GitGhost is a powerful GitHub unfollowers tracking tool that helps you identify users you follow but who don’t follow you back.
 
